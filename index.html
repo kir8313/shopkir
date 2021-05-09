@@ -33,7 +33,7 @@
               <div class="nav__menu">
                 <ul class="nav__list">
                   <li class="nav__list-item">
-                    <span class="nav__list-link">Главная</span>                                  
+                    <span class="nav__list-link --active">Главная</span>                                  
                   </li>
                   <li class="nav__list-item">
                     <a href="#catalog" class="nav__list-link --nav__link">Каталог</a>
@@ -51,7 +51,7 @@
               </div>
               <div class="nav__basket basket">
                 <a class="basket__link popup-link" href="#popup">Корзина</a>
-                <a class="basket__link" href="#">
+                <a class="basket__link popup-link" href="#popup">
                   <svg class="basket__img">
                     <use href="img/svg/sprite.svg#basket"></use>
                   </svg>
@@ -532,7 +532,10 @@
               <ul class="product__text">
                 <li class="product__brand">Calvin Klein</li>
                 <li class="product__type">Футболка</li>
-                <li class="product__price">6000 ₽</li>
+                <li class="product__price">
+                  <span class="product__price-now">6000&nbsp;₽</span> 
+                  <span class="product__price-before">9000&nbsp;₽</span> 
+                </li>
               </ul>
               <div class="product-right">
                 <button class="product-right__trash-can">
@@ -550,7 +553,10 @@
               <ul class="product__text">
                 <li class="product__brand">Lacoste</li>
                 <li class="product__type">Майка</li>
-                <li class="product__price">6000 ₽</li>
+                <li class="product__price">
+              <span class="product__price-now">6000&nbsp;₽</span> 
+              <span class="product__price-before">9000&nbsp;₽</span> 
+            </li>
               </ul>
               <div class="product-right">
                 <button class="product-right__trash-can">
@@ -567,7 +573,10 @@
               <ul class="product__text">
                 <li class="product__brand">Love Moschino</li>
                 <li class="product__type">Футболка</li>
-                <li class="product__price">6000 ₽</li>
+                <li class="product__price">
+                  <span class="product__price-now">3000&nbsp;₽</span> 
+                  <span class="product__price-before">8000&nbsp;₽</span> 
+                </li>
               </ul>
               <div class="product-right">
                 <button class="product-right__trash-can">
@@ -584,7 +593,10 @@
               <ul class="product__text">
                 <li class="product__brand">Love Moschino</li>
                 <li class="product__type">Футболка</li>
-                <li class="product__price">6000 ₽</li>
+                <li class="product__price">
+                  <span class="product__price-now">4000&nbsp;₽</span> 
+                  <span class="product__price-before">6000&nbsp;₽</span> 
+                </li>
               </ul>
               <div class="product-right">
                 <button class="product-right__trash-can">
@@ -602,7 +614,7 @@
               <li class="popup__bottom-price">20 000 ₽</li>
             </ul>
             <div class="popup__bottom-btn">
-              <a href="#">Перейти в корзину</a>
+              <a href="basket.html">Перейти в корзину</a>
             </div>
 
           </div>    
@@ -615,8 +627,8 @@
       <div class="footer__wrap">
         <span class="logo">Shopkir</span>
         <ul class="footer__list">
-          <li class="footer__list-item">
-            <span class="footer__list-link --nav__link --active">Главная</span>                                  
+          <li class="footer__list-item ">
+            <span class="footer__list-link --active">Главная</span>                                  
           </li>
           <li class="footer__list-item">
             <a href="#catalog" class="footer__list-link --nav__link">Каталог</a>
@@ -638,6 +650,13 @@
 </div>
 <script src="./js/modules.js"></script>
 <script src="./js/main.min.js"></script>
-
+<script>
+  if (window.innerWidth > 992) {
+  VanillaTilt.init(document.querySelectorAll(".card__img img"), {
+    max: 25,
+    speed: 600,
+  });
+}
+</script>
 </body>
 </html>
