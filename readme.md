@@ -1,6 +1,6 @@
 <h1>Shopkir</h1> <span>магазин футболок</span>
 
-<a href="https://kir8313.github.io/shop/">Демонстрация</ф>
+<a href="https://kir8313.github.io/shop/">Демонстрация</a>
 
 <h2>Инструменты</h2> <span>Адаптив, gulp, sass, js, lazyload, figma, grid, БЭМ наименования, flex, clamp</span>
 <h3>Что делал?</h3>
