@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Футболка Calvin Klein</title>  
+</head>
+<body>
+<script src="./js/lazy.min.js"></script>
+<div class="wrapper">
+  <header>
+    <div class="container">
+      <nav class="header__nav nav lock-padding">      
+      	<div class="container">
+      		<div class="nav__body">
+      			<a class="nav__logo logo" href="index.html">Shopkir</a>
+      			<div class="nav__burger">
+      				<span></span>                          
+      			</div>
+      			<div class="nav__menu">
+      				<ul class="nav__list">
+      					<li class="nav__list-item">
+      						<a href="index.html" class="nav__list-link">Главная</a>                                  
+      					</li>
+      					<li class="nav__list-item">
+      						<a href="index.html#catalog" class="nav__list-link">Каталог</a>
+      					</li>
+      					<li class="nav__list-item">
+      						<a href="index.html#delivery" class="nav__list-link">Доставка и оплата</a>
+      					</li>
+      					<li class="nav__list-item">
+      						<a href="index.html#team" class="nav__list-link">О нас</a>
+      					</li>					
+      					<li class="nav__list-item">
+      						<a href="index.html#contacts" class="nav__list-link">Контакты</a>
+      					</li>										
+      				</ul> 
+      			</div>
+      			<div class="nav__basket basket">
+      				<a class="basket__link popup-link" href="#popup">Корзина</a>
+      				<a class="basket__link popup-link" href="#popup">
+      					<svg class="basket__img">
+      						<use href="img/svg/sprite.svg#basket"></use>
+      					</svg>
+      				</a>
+      				<span>12</span>
+      			</div>
+      		</div>
+      	</div>      
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="goods">
+      <div class="container">      
+        <a class="goods__breadcrumbs" href="index.html">Назад</a>
+        <div class="goods__wrap">
+          <h1 class="goods__title">Calvin Klein <span>Футболка</span></h1>
+          <div class="goods-card">
+            <div class="goods-card__top">
+              <div class="goods-card__vendor-code">
+                Артикул: 
+                <span class="goods-card__vendor-code-number">879876</span>
+              </div>
+              <div class="goods-card__rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3">3 stars</label>
+                <input type="radio" id="star2" checked name="rate" value="2" />
+                <label for="star2">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1">1 star</label>
+              </div>
+              <a href="#" class="goods-card__feedback">Отзывов <span>10</span></a>
+            </div>
+            <div class="goods-card__inner">
+              <div class="goods-card__left">
+                <div class="goods-card__img">
+                  <img src="./img/products/5.jpg" alt="фото товара">
+                </div>
+                <div class="goods-card__slider">
+                  <img class="goods-card__slide goods-card__slide-1" src="./img/products/13.jpg" alt="1 фото товара">
+                  <img class="goods-card__slide goods-card__slide-2" src="./img/products/14.jpg" alt="2 фото товара">
+                  <img class="goods-card__slide goods-card__slide-3" src="./img/products/15.jpg" alt="3 фото товара">
+                  <img class="goods-card__slide goods-card__slide-4" src="./img/products/16.jpg" alt="4 фото товара">
+                </div>
+              </div>
+              <div class="goods-card__right">                          
+                <span class="goods-card__subtitle">Способ доставки</span>
+                <div class="goods-card__sizes">
+                  <label class="goods-card__sizes-label custom-label">
+                    <input type="radio" name="q1">
+                    <span>XS(40-42)</span>
+                  </label>
+                  <label class="goods-card__sizes-label custom-label">
+                    <input type="radio" name="q1">
+                    <span>XS(42-44)</span>
+                  </label>
+                  <label class="goods-card__sizes-label custom-label">
+                    <input type="radio" name="q1">
+                    <span>S(44-46)</span>
+                  </label>
+                  <label class="goods-card__sizes-label custom-label">
+                    <input type="radio" name="q1">
+                    <span>M(46-48)</span>
+                  </label>
+                  <label class="goods-card__sizes-label custom-label">
+                    <input type="radio" name="q1">
+                    <span>L(48-50)</span>
+                  </label>
+                  <label class="goods-card__sizes-label custom-label">
+                    <input type="radio" name="q1">
+                    <span>XL(50-52)</span>
+                  </label>
+                  <label class="goods-card__sizes-label custom-label">
+                    <input type="radio" name="q1" disabled>
+                    <span>XXL(52-54)</span>
+                  </label>
+                  <label class="goods-card__sizes-label custom-label">
+                    <input type="radio" name="q1">
+                    <span>3XL(54-56)</span>
+                  </label>
+                  <label class="goods-card__sizes-label custom-label">
+                    <input type="radio" name="q1">
+                    <span>4XL(60-62)</span>
+                  </label>
+                </div>
+                <span class="goods-card__subtitle">Цвет</span>
+                <div class="goods-card__colors">
+                  <button class="goods-card__color goods-card__color-red"></button>
+                  <button class="goods-card__color goods-card__color-dark"></button>
+                  <button class="goods-card__color goods-card__color-gray"></button>
+                </div>
+                <div class="goods-card__price">
+                  <span class="goods-card__price-now">6000&nbsp;₽</span>
+                  <span class="goods-card__price-before">10&nbsp;000&nbsp;₽</span>
+                </div>
+                <button class="goods-card__btn">Заказать</button>
+                <ul class="goods-card__advantages">
+                  <li class="goods-card__advantages-item">Бесплатная доставка</li>
+                  <li class="goods-card__advantages-item">Обмен в течении 7 дней</li>
+                  <li class="goods-card__advantages-item">Оплата заказа при получении</li>
+                </ul>           
+              </div>
+            </div>        
+          </div>
+          <div class="goods__info">
+            <span class="goods__structure-subtitle goods__subtitle">Состав</span>
+            <ul class="goods__structure-list">
+              <li class="goods__structure-item">хлопок 95%, эластан 5%</li> 
+            </ul>
+            <span class="goods__description-subtitle goods__subtitle">Описание</span>
+            <ul class="goods__description-list">
+              <li class="goods__description-item">
+                Футболка с&nbsp;V-образным вырезом, посадка Super Slim Fit.
+                Ткань содержит эластан, за&nbsp;счет этого тянется и&nbsp;облегает
+                фигуру. Материал отличается повышенной износостойкостью, футболка 
+                не&nbsp;теряет форму после многократных стирок.
+              </li> 
+            </ul>
+          </div>
+          <span class="goods__swiper-title goods__subtitle">Похожие товары</span>
+          <div class="goods__swiper">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/1.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">Calvin Klein</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">6000&nbsp; ₽</span>
+                      <span class="card__price-before">10&nbsp;000&nbsp; ₽</span>
+                      <span class="card__sale"></span>                                                                  
+                    </a>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/2.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">Puma</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">7000&nbsp; ₽</span>
+                      <span class="card__price-before">9000&nbsp; ₽</span>
+                      <span class="card__sale"></span>                                                                 
+                    </a>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/3.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">Giorgio Armani</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">4000&nbsp; ₽</span>
+                      <span class="card__price-before">6000&nbsp; ₽</span>
+                      <span class="card__sale"></span>                                                                 
+                    </a>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/4.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">EMPORIO ARMANI</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">8000&nbsp; ₽</span>
+                      <span class="card__price-before">13&nbsp;000&nbsp; ₽</span>
+                      <span class="card__sale"></span>                                                                 
+                    </a>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/5.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">ZILLI</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">3000&nbsp;₽</span>
+                      <span class="card__price-before">8000&nbsp;₽</span>
+                      <span class="card__sale"></span>                                                                 
+                    </a>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/6.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">VERSACE</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">15&nbsp;000&nbsp;₽</span>
+                      <span class="card__price-before">30&nbsp;000&nbsp;₽</span>
+                      <span class="card__sale"></span>                                                                 
+                    </a>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/7.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">Calvin Klein</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">6000&nbsp; ₽</span>
+                      <span class="card__price-before">10&nbsp;000&nbsp; ₽</span>
+                      <span class="card__sale"></span>                                                                 
+                    </a>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/8.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">Calvin Klein</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">6000&nbsp; ₽</span>
+                      <span class="card__price-before">10&nbsp;000&nbsp; ₽</span>
+                      <span class="card__sale"></span>                                                                 
+                    </a>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/9.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">Calvin Klein</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">6000&nbsp; ₽</span>
+                      <span class="card__price-before">10&nbsp;000&nbsp; ₽</span>
+                      <span class="card__sale"></span>                                                                 
+                    </a>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="catalog__products-card card">
+                    <a class="card__img" href="#">
+                      <img class="swiper-lazy" data-src="./img/products/10.jpg" alt="футболка">
+                      <span class="card__img-preview">Перейти</span>
+                    </a>
+                    <a href="#" class="card__inner">
+                      <span class="card__name-brand">Calvin Klein</span>
+                      <span class="card__name-type">Футболка</span>              
+                      <span class="card__price-now">6000&nbsp; ₽</span>
+                      <span class="card__price-before">10&nbsp;000&nbsp; ₽</span>
+                      <span class="card__sale"></span>                                                                 
+                    </a>
+                  </article>
+                </div>
+                
+              </div>
+              
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="popup" id="popup">
+    <div class="popup__body">      
+        <div class="popup__content">
+          <a href="#header" class="popup__close close-popup"><span></span></a>
+          <div class="popup__cards" data-simplebar>
+            <div class="popup__card product">
+              <div class="product__img">
+                <img src="./img/products/1.jpg" alt="футболка Calvin Klein">
+              </div>
+              <ul class="product__text">
+                <li class="product__brand">Calvin Klein</li>
+                <li class="product__type">Футболка</li>
+                <li class="product__price">
+                  <span class="product__price-now">6000&nbsp;₽</span> 
+                  <span class="product__price-before">9000&nbsp;₽</span> 
+                </li>
+              </ul>
+              <div class="product-right">
+                <button class="product-right__trash-can">
+                  <svg>
+                  <use href="img/svg/sprite.svg#trash-can"></use>
+                  </svg>
+                </button>
+              </div>
+              
+            </div>
+            <div class="popup__card product">
+              <div class="product__img">
+                <img src="./img/products/12.jpg" alt="майка Lacoste">
+              </div>
+              <ul class="product__text">
+                <li class="product__brand">Lacoste</li>
+                <li class="product__type">Майка</li>
+                <li class="product__price">
+              <span class="product__price-now">6000&nbsp;₽</span> 
+              <span class="product__price-before">9000&nbsp;₽</span> 
+            </li>
+              </ul>
+              <div class="product-right">
+                <button class="product-right__trash-can">
+                  <svg>
+                  <use href="img/svg/sprite.svg#trash-can"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="popup__card product">
+              <div class="product__img">
+                <img src="./img/products/13.jpg" alt="футболка Love Moschino">
+              </div>
+              <ul class="product__text">
+                <li class="product__brand">Love Moschino</li>
+                <li class="product__type">Футболка</li>
+                <li class="product__price">
+                  <span class="product__price-now">3000&nbsp;₽</span> 
+                  <span class="product__price-before">8000&nbsp;₽</span> 
+                </li>
+              </ul>
+              <div class="product-right">
+                <button class="product-right__trash-can">
+                  <svg>
+                  <use href="img/svg/sprite.svg#trash-can"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="popup__card product">
+              <div class="product__img">
+                <img src="./img/products/13.jpg" alt="футболка Love Moschino">
+              </div>
+              <ul class="product__text">
+                <li class="product__brand">Love Moschino</li>
+                <li class="product__type">Футболка</li>
+                <li class="product__price">
+                  <span class="product__price-now">4000&nbsp;₽</span> 
+                  <span class="product__price-before">6000&nbsp;₽</span> 
+                </li>
+              </ul>
+              <div class="product-right">
+                <button class="product-right__trash-can">
+                  <svg>
+                  <use href="img/svg/sprite.svg#trash-can"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            
+          </div>  
+          <div class="popup__bottom">
+            <ul class="popup__bottom-list">
+              <li class="popup__bottom-result">Итого:</li>
+              <li class="popup__bottom-price">20 000 ₽</li>
+            </ul>
+            <div class="popup__bottom-btn">
+              <a href="basket.html">Перейти в корзину</a>
+            </div>
+  
+          </div>    
+        </div>   
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="container">  
+  		<div class="footer__wrap">
+  			<a class="footer__logo logo" href="index.html">Shopkir</a>
+  			<ul class="footer__list">
+  				<li class="footer__list-item">
+  					<a href="index.html" class="footer__list-link ">Главная</a>                                  
+  				</li>
+  				<li class="footer__list-item">
+  					<a href="index.html#catalog" class="footer__list-link">Каталог</a>
+  				</li>
+  				<li class="footer__list-item">
+  					<a href="index.html#delivery" class="footer__list-link">Доставка и оплата</a>
+  				</li>
+  				<li class="footer__list-item">
+  					<a href="index.html#team" class="footer__list-link">О нас</a>
+  				</li>				
+  				<li class="footer__list-item">
+  					<a href="index.html#contacts" class="footer__list-link">Контакты</a>
+  				</li>										
+  			</ul>  
+  		</div> 		         
+    </div>
+  </footer>
+</div>
+
+<script src="./js/modules.js"></script>
+<script src="./js/main.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper-container', {
+		slidesPerView: 3,
+		spaceBetween: 20,
+		speed: 800,
+		grabCursor: true,
+		pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',        
+		}, 	
+		preloadImages: true,
+		lazy: true,
+		lazy: {			
+			loadOnTransitionStart: true,
+      loadPrevNext: true,
+			checkInView: true,
+		  },
+		breakpoints: {		
+			1200: {
+				slidesPerView: 6,
+			}, 
+      1000: {
+        slidesPerView: 5,
+      },     
+			768: {
+				slidesPerView: 4,
+			},      
+			560: {
+				slidesPerView: 3,
+			},      
+			350: {
+				slidesPerView: 2,
+			},      
+			300: {
+				slidesPerView: 1,
+			},      
+	}
+	});
+</script>
+
+</body>
+</html>
